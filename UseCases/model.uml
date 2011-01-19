@@ -2,14 +2,19 @@
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_thJvQSJ-EeCkSsdwWMuWNg" name="NetMus - UseCases">
   <packagedElement xmi:type="uml:Actor" xmi:id="_DzeIECL-EeCg7tcpsjzrrA" name="Utente"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_xFtzACL-EeCg7tcpsjzrrA" name="Sistema NetMus (1/2)"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_0YtGYCMBEeCg7tcpsjzrrA" name="Sistema NetMus - Autenticazione" useCase="_fwA5MCMDEeCg7tcpsjzrrA _xkEJoCMDEeCg7tcpsjzrrA _yJ6BoCMDEeCg7tcpsjzrrA">
+  <packagedElement xmi:type="uml:Component" xmi:id="_0YtGYCMBEeCg7tcpsjzrrA" name="Sistema NetMus" useCase="_fwA5MCMDEeCg7tcpsjzrrA _xkEJoCMDEeCg7tcpsjzrrA _yJ6BoCMDEeCg7tcpsjzrrA">
     <ownedUseCase xmi:id="_fwA5MCMDEeCg7tcpsjzrrA" name="UC1.4.1 Registrazione Google" clientDependency="_UJ9fQCMHEeCg7tcpsjzrrA _1RNXgCMIEeCg7tcpsjzrrA" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_xkEJoCMDEeCg7tcpsjzrrA" name="UC1.4.3 Registrazione NetMus" clientDependency="_XtAIMCMHEeCg7tcpsjzrrA _yGkngCMIEeCg7tcpsjzrrA" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_yJ6BoCMDEeCg7tcpsjzrrA" name="UC1.3 Interagire con altri cataloghi" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_loy1ACMEEeCg7tcpsjzrrA" name="Copy_Of_UC1.3 Interagire con altri cataloghi"/>
-    <ownedUseCase xmi:id="_lo14UCMEEeCg7tcpsjzrrA" name="UC1.4.2 Autenticazione Google" clientDependency="_Rk2wICMFEeCg7tcpsjzrrA _ZV4ccCMFEeCg7tcpsjzrrA _ba8EcCMFEeCg7tcpsjzrrA _Q3UCwCMHEeCg7tcpsjzrrA"/>
+    <ownedUseCase xmi:id="_lo14UCMEEeCg7tcpsjzrrA" name="UC1.4.2 Autenticazione Google" clientDependency="_Rk2wICMFEeCg7tcpsjzrrA _ZV4ccCMFEeCg7tcpsjzrrA _ba8EcCMFEeCg7tcpsjzrrA _Q3UCwCMHEeCg7tcpsjzrrA">
+      <extensionPoint xmi:id="_6LmnUCPsEeCyNvljnNTRvg" name="Registrazione"/>
+    </ownedUseCase>
     <ownedUseCase xmi:id="_XyeBkCMIEeCg7tcpsjzrrA" name="Copy_Of_UC1.4.3 Registrazione NetMus"/>
-    <ownedUseCase xmi:id="_XykvQCMIEeCg7tcpsjzrrA" name="UC1.4.4 Autenticazione NetMus" clientDependency="_sKaLECMIEeCg7tcpsjzrrA"/>
+    <ownedUseCase xmi:id="_XykvQCMIEeCg7tcpsjzrrA" name="UC1.4.4 Autenticazione NetMus" clientDependency="_sKaLECMIEeCg7tcpsjzrrA">
+      <extensionPoint xmi:id="_WKV_kSPsEeCyNvljnNTRvg" name="Registrazione"/>
+      <extensionPoint xmi:id="_soDiwCPsEeCyNvljnNTRvg" name="Registrazione"/>
+    </ownedUseCase>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_5VaJkCMEEeCg7tcpsjzrrA" name="A_utente_uc1.1 gestire profilo personale" memberEnd="_5VawoCMEEeCg7tcpsjzrrA _5VawoyMEEeCg7tcpsjzrrA">
     <ownedEnd xmi:id="_5VawoCMEEeCg7tcpsjzrrA" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_5VaJkCMEEeCg7tcpsjzrrA">
@@ -140,7 +145,7 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_sKaLECMIEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_lo14UCMEEeCg7tcpsjzrrA" client="_XykvQCMIEeCg7tcpsjzrrA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_yGkngCMIEeCg7tcpsjzrrA" name="&lt;&lt;extend>>" supplier="_XykvQCMIEeCg7tcpsjzrrA" client="_xkEJoCMDEeCg7tcpsjzrrA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_1RNXgCMIEeCg7tcpsjzrrA" name="&lt;&lt;extend>>" supplier="_lo14UCMEEeCg7tcpsjzrrA" client="_fwA5MCMDEeCg7tcpsjzrrA"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_bKVDUCMKEeCg7tcpsjzrrA" name="Sistema NetMus (1/2)" useCase="_wtjUMCMKEeCg7tcpsjzrrA _yfADsCMKEeCg7tcpsjzrrA _1IcyMCMKEeCg7tcpsjzrrA _4CObsCMKEeCg7tcpsjzrrA">
+  <packagedElement xmi:type="uml:Component" xmi:id="_bKVDUCMKEeCg7tcpsjzrrA" name="Sistema NetMus" useCase="_wtjUMCMKEeCg7tcpsjzrrA _yfADsCMKEeCg7tcpsjzrrA _1IcyMCMKEeCg7tcpsjzrrA _4CObsCMKEeCg7tcpsjzrrA">
     <ownedUseCase xmi:id="_wtjUMCMKEeCg7tcpsjzrrA" name="UC1.1 Gestire profilo personale" clientDependency="_yst6ICMLEeCg7tcpsjzrrA" subject="_bKVDUCMKEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_yfADsCMKEeCg7tcpsjzrrA" name="UC1.2 Interagire con altri cataloghi" clientDependency="_0mVHICMLEeCg7tcpsjzrrA" subject="_bKVDUCMKEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_1IcyMCMKEeCg7tcpsjzrrA" name="UC1.4 Autenticazione" subject="_bKVDUCMKEeCg7tcpsjzrrA"/>
@@ -189,7 +194,7 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_yst6ICMLEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_1IcyMCMKEeCg7tcpsjzrrA" client="_wtjUMCMKEeCg7tcpsjzrrA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_0mVHICMLEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_1IcyMCMKEeCg7tcpsjzrrA" client="_yfADsCMKEeCg7tcpsjzrrA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_24DSICMLEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_1IcyMCMKEeCg7tcpsjzrrA" client="_4CObsCMKEeCg7tcpsjzrrA"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_DX5eACMMEeCg7tcpsjzrrA" name="Sistema NetMus (2/2)" useCase="_Ns_pkCMMEeCg7tcpsjzrrA _RdxMgCMMEeCg7tcpsjzrrA _g0qeACMMEeCg7tcpsjzrrA">
+  <packagedElement xmi:type="uml:Component" xmi:id="_DX5eACMMEeCg7tcpsjzrrA" name="Sistema NetMus" useCase="_Ns_pkCMMEeCg7tcpsjzrrA _RdxMgCMMEeCg7tcpsjzrrA _g0qeACMMEeCg7tcpsjzrrA">
     <ownedUseCase xmi:id="_Ns_pkCMMEeCg7tcpsjzrrA" name="UC2.1 Aggiornamento informazioni" clientDependency="_4c4sgCMMEeCg7tcpsjzrrA" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_RdxMgCMMEeCg7tcpsjzrrA" name="UC2.2 Inviare nuovi brani" clientDependency="_2iljACMMEeCg7tcpsjzrrA" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_g0qeACMMEeCg7tcpsjzrrA" name="UC1.4 Autenticazione" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
@@ -433,4 +438,49 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_tJdgkCNFEeCCLsrQaJeLBw" name="&lt;&lt;include>>" supplier="__-rvkCNEEeCCLsrQaJeLBw" client="_6LSNkCNEEeCCLsrQaJeLBw"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_ucKekCNFEeCCLsrQaJeLBw" name="&lt;&lt;include>>" supplier="__-rvkCNEEeCCLsrQaJeLBw" client="_kmmkICNEEeCCLsrQaJeLBw"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_F7G7kCQSEeCyNvljnNTRvg" name="Componente di recupero delle informazioni (C2)" useCase="_gFsuQCQUEeCyNvljnNTRvg _jZuDwCQUEeCyNvljnNTRvg _mfPqQCQUEeCyNvljnNTRvg">
+    <ownedComment xmi:id="_tB1_ICQVEeCyNvljnNTRvg" annotatedElement="_jH2bMCQVEeCyNvljnNTRvg _X9VtwCQZEeCyNvljnNTRvg">
+      <body>Condition: {L'utente non è connesso ad Internet}
+Extension point: offline</body>
+    </ownedComment>
+    <ownedUseCase xmi:id="_gFsuQCQUEeCyNvljnNTRvg" name="UC2.2.1 Invio automatico" subject="_F7G7kCQSEeCyNvljnNTRvg">
+      <extensionPoint xmi:id="_obpQECQVEeCyNvljnNTRvg" name="offline"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_jZuDwCQUEeCyNvljnNTRvg" name="UC2.2.2 Invio manuale" subject="_F7G7kCQSEeCyNvljnNTRvg">
+      <extensionPoint xmi:id="_THCGICQZEeCyNvljnNTRvg" name="offline"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_mfPqQCQUEeCyNvljnNTRvg" name="UC2.2.3 Memorizzazione locale" clientDependency="_jH2bMCQVEeCyNvljnNTRvg _X9VtwCQZEeCyNvljnNTRvg" subject="_F7G7kCQSEeCyNvljnNTRvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VR1GkCQVEeCyNvljnNTRvg" name="" memberEnd="_VR1GkSQVEeCyNvljnNTRvg _VR1GlCQVEeCyNvljnNTRvg">
+    <ownedEnd xmi:id="_VR1GkSQVEeCyNvljnNTRvg" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_VR1GkCQVEeCyNvljnNTRvg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VR1GkiQVEeCyNvljnNTRvg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VR1GkyQVEeCyNvljnNTRvg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_VR1GlCQVEeCyNvljnNTRvg" name="uc2.2.1 invio automatico" type="_gFsuQCQUEeCyNvljnNTRvg" association="_VR1GkCQVEeCyNvljnNTRvg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VR1GlSQVEeCyNvljnNTRvg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VR1GliQVEeCyNvljnNTRvg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WR4OUCQVEeCyNvljnNTRvg" name="" memberEnd="_WR4OUSQVEeCyNvljnNTRvg _WR4OVCQVEeCyNvljnNTRvg">
+    <ownedEnd xmi:id="_WR4OUSQVEeCyNvljnNTRvg" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_WR4OUCQVEeCyNvljnNTRvg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WR4OUiQVEeCyNvljnNTRvg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WR4OUyQVEeCyNvljnNTRvg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_WR4OVCQVEeCyNvljnNTRvg" name="uc2.2.2 invio manuale" type="_jZuDwCQUEeCyNvljnNTRvg" association="_WR4OUCQVEeCyNvljnNTRvg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WR4OVSQVEeCyNvljnNTRvg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WR4OViQVEeCyNvljnNTRvg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bsjHQCQVEeCyNvljnNTRvg" name="" memberEnd="_bsjuUCQVEeCyNvljnNTRvg _bsjuUyQVEeCyNvljnNTRvg">
+    <ownedEnd xmi:id="_bsjuUCQVEeCyNvljnNTRvg" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_bsjHQCQVEeCyNvljnNTRvg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bsjuUSQVEeCyNvljnNTRvg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bsjuUiQVEeCyNvljnNTRvg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_bsjuUyQVEeCyNvljnNTRvg" name="uc2.2.3 memorizzazione locale offline" type="_mfPqQCQUEeCyNvljnNTRvg" association="_bsjHQCQVEeCyNvljnNTRvg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bsjuVCQVEeCyNvljnNTRvg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bsjuVSQVEeCyNvljnNTRvg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_jH2bMCQVEeCyNvljnNTRvg" name="&lt;&lt;extend>>" supplier="_gFsuQCQUEeCyNvljnNTRvg" client="_mfPqQCQUEeCyNvljnNTRvg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_X9VtwCQZEeCyNvljnNTRvg" name="&lt;&lt;extend>>" supplier="_jZuDwCQUEeCyNvljnNTRvg" client="_mfPqQCQUEeCyNvljnNTRvg"/>
 </uml:Model>
