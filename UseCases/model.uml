@@ -4,14 +4,14 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_xFtzACL-EeCg7tcpsjzrrA" name="Sistema NetMus (1/2)"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_0YtGYCMBEeCg7tcpsjzrrA" name="Sistema NetMus" useCase="_fwA5MCMDEeCg7tcpsjzrrA _xkEJoCMDEeCg7tcpsjzrrA _yJ6BoCMDEeCg7tcpsjzrrA">
     <ownedUseCase xmi:id="_fwA5MCMDEeCg7tcpsjzrrA" name="UC1.4.1 Registrazione Google" clientDependency="_UJ9fQCMHEeCg7tcpsjzrrA _1RNXgCMIEeCg7tcpsjzrrA" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
-    <ownedUseCase xmi:id="_xkEJoCMDEeCg7tcpsjzrrA" name="UC1.4.3 Registrazione NetMus" clientDependency="_XtAIMCMHEeCg7tcpsjzrrA _yGkngCMIEeCg7tcpsjzrrA" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
+    <ownedUseCase xmi:id="_xkEJoCMDEeCg7tcpsjzrrA" name="UC1.4.2 Registrazione NetMus" clientDependency="_XtAIMCMHEeCg7tcpsjzrrA _yGkngCMIEeCg7tcpsjzrrA" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_yJ6BoCMDEeCg7tcpsjzrrA" name="UC1.3 Interagire con altri cataloghi" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_loy1ACMEEeCg7tcpsjzrrA" name="Copy_Of_UC1.3 Interagire con altri cataloghi"/>
-    <ownedUseCase xmi:id="_lo14UCMEEeCg7tcpsjzrrA" name="UC1.4.2 Autenticazione Google" clientDependency="_Rk2wICMFEeCg7tcpsjzrrA _ZV4ccCMFEeCg7tcpsjzrrA _ba8EcCMFEeCg7tcpsjzrrA _Q3UCwCMHEeCg7tcpsjzrrA">
+    <ownedUseCase xmi:id="_lo14UCMEEeCg7tcpsjzrrA" name="UC1.4.1 Autenticazione Google" clientDependency="_Rk2wICMFEeCg7tcpsjzrrA _ZV4ccCMFEeCg7tcpsjzrrA _ba8EcCMFEeCg7tcpsjzrrA _Q3UCwCMHEeCg7tcpsjzrrA">
       <extensionPoint xmi:id="_6LmnUCPsEeCyNvljnNTRvg" name="Registrazione"/>
     </ownedUseCase>
     <ownedUseCase xmi:id="_XyeBkCMIEeCg7tcpsjzrrA" name="Copy_Of_UC1.4.3 Registrazione NetMus"/>
-    <ownedUseCase xmi:id="_XykvQCMIEeCg7tcpsjzrrA" name="UC1.4.4 Autenticazione NetMus" clientDependency="_sKaLECMIEeCg7tcpsjzrrA">
+    <ownedUseCase xmi:id="_XykvQCMIEeCg7tcpsjzrrA" name="UC1.4.3 Autenticazione NetMus" clientDependency="_sKaLECMIEeCg7tcpsjzrrA">
       <extensionPoint xmi:id="_WKV_kSPsEeCyNvljnNTRvg" name="Registrazione"/>
       <extensionPoint xmi:id="_soDiwCPsEeCyNvljnNTRvg" name="Registrazione"/>
     </ownedUseCase>
@@ -196,7 +196,7 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_24DSICMLEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_1IcyMCMKEeCg7tcpsjzrrA" client="_4CObsCMKEeCg7tcpsjzrrA"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_DX5eACMMEeCg7tcpsjzrrA" name="Sistema NetMus" useCase="_Ns_pkCMMEeCg7tcpsjzrrA _RdxMgCMMEeCg7tcpsjzrrA _g0qeACMMEeCg7tcpsjzrrA">
     <ownedUseCase xmi:id="_Ns_pkCMMEeCg7tcpsjzrrA" name="UC2.1 Aggiornamento informazioni" clientDependency="_4c4sgCMMEeCg7tcpsjzrrA" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
-    <ownedUseCase xmi:id="_RdxMgCMMEeCg7tcpsjzrrA" name="UC2.2 Inviare nuovi brani" clientDependency="_2iljACMMEeCg7tcpsjzrrA" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
+    <ownedUseCase xmi:id="_RdxMgCMMEeCg7tcpsjzrrA" name="UC2.2 Inviare nuovi brani" clientDependency="_2iljACMMEeCg7tcpsjzrrA _UAEKMSS5EeCbXfKJvVEhcA" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
     <ownedUseCase xmi:id="_g0qeACMMEeCg7tcpsjzrrA" name="UC1.4 Autenticazione" subject="_DX5eACMMEeCg7tcpsjzrrA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_wgs5ECMMEeCg7tcpsjzrrA" name="" memberEnd="_wgs5ESMMEeCg7tcpsjzrrA _wgs5FCMMEeCg7tcpsjzrrA">
@@ -270,7 +270,7 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_t18DgCMuEeC0HpHLnIgW9g" name="&lt;&lt;include>>" supplier="_TmiXYCMuEeC0HpHLnIgW9g" client="_nnA4kCMtEeC0HpHLnIgW9g"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_2DJ0MCM8EeCCLsrQaJeLBw" name="Componente di persistenza e visualizzazione (C1)" useCase="_1vJywCM_EeCCLsrQaJeLBw _4aWNsCM_EeCCLsrQaJeLBw _78VGsCM_EeCCLsrQaJeLBw _EdOJsCNAEeCCLsrQaJeLBw _YnpboCNAEeCCLsrQaJeLBw _dSkSoCNAEeCCLsrQaJeLBw _jMc3ICNAEeCCLsrQaJeLBw">
+  <packagedElement xmi:type="uml:Component" xmi:id="_2DJ0MCM8EeCCLsrQaJeLBw" name="Componente di persistenza e visualizzazione (C1)" useCase="_1vJywCM_EeCCLsrQaJeLBw _4aWNsCM_EeCCLsrQaJeLBw _78VGsCM_EeCCLsrQaJeLBw _EdOJsCNAEeCCLsrQaJeLBw _YnpboCNAEeCCLsrQaJeLBw _dSkSoCNAEeCCLsrQaJeLBw _jMc3ICNAEeCCLsrQaJeLBw _myeEkCVOEeCcu-WWee18YA">
     <ownedUseCase xmi:id="_1vJywCM_EeCCLsrQaJeLBw" name="UC1.3.1 Visualizzare catalogo" subject="_2DJ0MCM8EeCCLsrQaJeLBw"/>
     <ownedUseCase xmi:id="_4aWNsCM_EeCCLsrQaJeLBw" name="UC1.3.2 Modificare informazioni catalogo" subject="_2DJ0MCM8EeCCLsrQaJeLBw"/>
     <ownedUseCase xmi:id="_78VGsCM_EeCCLsrQaJeLBw" name="UC1.3.3 Gestire dettagli brano" subject="_2DJ0MCM8EeCCLsrQaJeLBw"/>
@@ -287,6 +287,7 @@
       <generalization xmi:id="_fWO-ECNBEeCCLsrQaJeLBw" general="_78VGsCM_EeCCLsrQaJeLBw"/>
       <generalization xmi:id="_G0AwACNCEeCCLsrQaJeLBw" general="_78VGsCM_EeCCLsrQaJeLBw"/>
     </ownedUseCase>
+    <ownedUseCase xmi:id="_myeEkCVOEeCcu-WWee18YA" name="UC1.3.5 Creare playlist" subject="_2DJ0MCM8EeCCLsrQaJeLBw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_LFalsCNAEeCCLsrQaJeLBw" name="YouTube"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_LIwYICNBEeCCLsrQaJeLBw" name="" memberEnd="_LIwYISNBEeCCLsrQaJeLBw _LIw_MiNBEeCCLsrQaJeLBw">
@@ -483,4 +484,15 @@ Extension point: offline</body>
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_jH2bMCQVEeCyNvljnNTRvg" name="&lt;&lt;extend>>" supplier="_gFsuQCQUEeCyNvljnNTRvg" client="_mfPqQCQUEeCyNvljnNTRvg"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_X9VtwCQZEeCyNvljnNTRvg" name="&lt;&lt;extend>>" supplier="_jZuDwCQUEeCyNvljnNTRvg" client="_mfPqQCQUEeCyNvljnNTRvg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UAEKMSS5EeCbXfKJvVEhcA" name="&lt;&lt;include>>" supplier="_g0qeACMMEeCg7tcpsjzrrA" client="_RdxMgCMMEeCg7tcpsjzrrA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y4bJwCVOEeCcu-WWee18YA" name="" memberEnd="_y4bJwSVOEeCcu-WWee18YA _y4bJxCVOEeCcu-WWee18YA">
+    <ownedEnd xmi:id="_y4bJwSVOEeCcu-WWee18YA" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_y4bJwCVOEeCcu-WWee18YA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4bJwiVOEeCcu-WWee18YA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4bJwyVOEeCcu-WWee18YA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_y4bJxCVOEeCcu-WWee18YA" name="uc1.3.5 creare playlist" type="_myeEkCVOEeCcu-WWee18YA" association="_y4bJwCVOEeCcu-WWee18YA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4bJxSVOEeCcu-WWee18YA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4bJxiVOEeCcu-WWee18YA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
