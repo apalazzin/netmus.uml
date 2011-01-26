@@ -606,16 +606,12 @@
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_GQ8rviMIEeCg7tcpsjzrrA" type="5018"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_GQ8rvyMIEeCg7tcpsjzrrA" type="7012">
-            <children xmi:type="notation:Shape" xmi:id="_6LocgCPsEeCyNvljnNTRvg" type="3007" fontName="Ubuntu" lineColor="0">
-              <element xmi:type="uml:ExtensionPoint" href="model.uml#_6LmnUCPsEeCyNvljnNTRvg"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_6LocgSPsEeCyNvljnNTRvg"/>
-            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_GQ8rwCMIEeCg7tcpsjzrrA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_GQ8rwSMIEeCg7tcpsjzrrA"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GQ8rwiMIEeCg7tcpsjzrrA"/>
           </children>
           <element xmi:type="uml:UseCase" href="model.uml#_lo14UCMEEeCg7tcpsjzrrA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GQ8rwyMIEeCg7tcpsjzrrA" x="49" y="159" width="217" height="102"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GQ8rwyMIEeCg7tcpsjzrrA" x="49" y="159" width="205" height="78"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_Xyl9YCMIEeCg7tcpsjzrrA" type="3009" fontName="Ubuntu" fontHeight="11" fillColor="15128749" lineColor="12560536">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Xyl9YSMIEeCg7tcpsjzrrA" source="ShadowFigure">
