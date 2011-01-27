@@ -9,10 +9,11 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_qvp0QCleEeCXobsnthihHA" name="" supplier="_u_2TkCldEeCXobsnthihHA" client="_rbElQCldEeCXobsnthihHA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_w_s2ACleEeCXobsnthihHA" name="Dependency0" supplier="_yTiR4CldEeCXobsnthihHA" client="_rbElQCldEeCXobsnthihHA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_u_2TkCldEeCXobsnthihHA" name="activity" clientDependency="_MYTl4ClfEeCXobsnthihHA _ZyUT8ClfEeCXobsnthihHA _AI9pQClhEeCXobsnthihHA">
+    <packagedElement xmi:type="uml:Package" xmi:id="_u_2TkCldEeCXobsnthihHA" name="activity" clientDependency="_MYTl4ClfEeCXobsnthihHA _ZyUT8ClfEeCXobsnthihHA _AI9pQClhEeCXobsnthihHA _XJezwCn_EeCRl8uiHbzv9A">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_MYTl4ClfEeCXobsnthihHA" name="Dependency0" supplier="_yTiR4CldEeCXobsnthihHA" client="_u_2TkCldEeCXobsnthihHA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_ZyUT8ClfEeCXobsnthihHA" name="Dependency2" supplier="_zZcKACldEeCXobsnthihHA" client="_u_2TkCldEeCXobsnthihHA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_AI9pQClhEeCXobsnthihHA" name="Dependency1" supplier="_0arkkCldEeCXobsnthihHA" client="_u_2TkCldEeCXobsnthihHA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_XJezwCn_EeCRl8uiHbzv9A" name="Dependency3" supplier="_02SFwCn9EeCRl8uiHbzv9A" client="_u_2TkCldEeCXobsnthihHA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_yTiR4CldEeCXobsnthihHA" name="place" clientDependency="_7ICX8CleEeCXobsnthihHA">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_7ICX8CleEeCXobsnthihHA" name="" supplier="_u_2TkCldEeCXobsnthihHA" client="_yTiR4CldEeCXobsnthihHA"/>
@@ -21,6 +22,7 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_516BsCleEeCXobsnthihHA" name="" supplier="_yTiR4CldEeCXobsnthihHA" client="_zZcKACldEeCXobsnthihHA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_0arkkCldEeCXobsnthihHA" name="service"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_02SFwCn9EeCRl8uiHbzv9A" name="javafx"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_lvp7kCbhEeCp-e0OokJaJQ" name="server" clientDependency="_6zTUgCbhEeCp-e0OokJaJQ _LoSPcCllEeCXobsnthihHA">
     <packagedElement xmi:type="uml:Dependency" xmi:id="_6zTUgCbhEeCp-e0OokJaJQ" name="" supplier="_yQF9UCbhEeCp-e0OokJaJQ" client="_lvp7kCbhEeCp-e0OokJaJQ"/>
