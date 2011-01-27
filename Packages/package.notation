@@ -80,7 +80,7 @@
         <element xmi:type="uml:Package" href="package.uml#_zZcKACldEeCXobsnthihHA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZlT8SldEeCXobsnthihHA" x="205" y="217" width="100" height="54"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_0aySQCldEeCXobsnthihHA" type="2007" fontName="Droid Sans" fontHeight="8" lineColor="0">
+      <children xmi:type="notation:Shape" xmi:id="_0aySQCldEeCXobsnthihHA" type="2007" fontName="FreeSans" fontHeight="8" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0aySQildEeCXobsnthihHA" source="ShadowFigure">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0ay5UCldEeCXobsnthihHA" key="ShadowFigure_Value" value="false"/>
         </eAnnotations>
