@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_EU_YECbgEeCp-e0OokJaJQ" type="Package" name="Netmus" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_EU_YECbgEeCp-e0OokJaJQ" type="Package" name="Netmus" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_f2gzYCbgEeCp-e0OokJaJQ" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="16446171" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f2uOwCbgEeCp-e0OokJaJQ" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f2uOwSbgEeCp-e0OokJaJQ" key="ShadowFigure_Value" value="false"/>
@@ -29,7 +29,7 @@
         <element xmi:type="uml:Package" href="package.uml#_rbElQCldEeCXobsnthihHA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rbVD8SldEeCXobsnthihHA" x="43" y="25" width="100" height="54"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_u_9BQCldEeCXobsnthihHA" type="3009" fontName="Droid Sans" fontHeight="8" fillColor="16446171" lineColor="0">
+      <children xmi:type="notation:Shape" xmi:id="_u_9BQCldEeCXobsnthihHA" type="3009" fontName="Droid Sans" fontHeight="8" fillColor="10265827" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u_9oUCldEeCXobsnthihHA" source="ShadowFigure">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u_9oUSldEeCXobsnthihHA" key="ShadowFigure_Value" value="false"/>
         </eAnnotations>
@@ -46,7 +46,7 @@
         <element xmi:type="uml:Package" href="package.uml#_u_2TkCldEeCXobsnthihHA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u_9BQSldEeCXobsnthihHA" x="259" y="41" width="100" height="54"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_yTmjUCldEeCXobsnthihHA" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="16446171" lineColor="0">
+      <children xmi:type="notation:Shape" xmi:id="_yTmjUCldEeCXobsnthihHA" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="8905185" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yTnxcCldEeCXobsnthihHA" source="ShadowFigure">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yTnxcSldEeCXobsnthihHA" key="ShadowFigure_Value" value="false"/>
         </eAnnotations>
@@ -63,7 +63,7 @@
         <element xmi:type="uml:Package" href="package.uml#_yTiR4CldEeCXobsnthihHA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yTmjUSldEeCXobsnthihHA" x="31" y="193" width="100" height="54"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_zZlT8CldEeCXobsnthihHA" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="16446171" lineColor="0">
+      <children xmi:type="notation:Shape" xmi:id="_zZlT8CldEeCXobsnthihHA" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="8905185" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zZl7ACldEeCXobsnthihHA" source="ShadowFigure">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZl7ASldEeCXobsnthihHA" key="ShadowFigure_Value" value="false"/>
         </eAnnotations>
@@ -80,7 +80,7 @@
         <element xmi:type="uml:Package" href="package.uml#_zZcKACldEeCXobsnthihHA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZlT8SldEeCXobsnthihHA" x="205" y="217" width="100" height="54"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_0aySQCldEeCXobsnthihHA" type="2007" fontName="FreeSans" fontHeight="8" fillColor="16446171" lineColor="0">
+      <children xmi:type="notation:Shape" xmi:id="_0aySQCldEeCXobsnthihHA" type="2007" fontName="FreeSans" fontHeight="8" fillColor="10011046" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0aySQildEeCXobsnthihHA" source="ShadowFigure">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0ay5UCldEeCXobsnthihHA" key="ShadowFigure_Value" value="false"/>
         </eAnnotations>
@@ -131,7 +131,7 @@
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_lvwpRibhEeCp-e0OokJaJQ" type="5026"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_lvwpRybhEeCp-e0OokJaJQ" type="7016">
-      <children xmi:type="notation:Shape" xmi:id="_JOdjQCljEeCXobsnthihHA" type="3009" fontName="Droid Sans" fontHeight="8" fillColor="16446171" lineColor="0">
+      <children xmi:type="notation:Shape" xmi:id="_JOdjQCljEeCXobsnthihHA" type="3009" fontName="Droid Sans" fontHeight="8" fillColor="10011046" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JOeKUCljEeCXobsnthihHA" source="ShadowFigure">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JOeKUSljEeCXobsnthihHA" key="ShadowFigure_Value" value="false"/>
         </eAnnotations>
@@ -187,7 +187,7 @@
     <element xmi:type="uml:Package" href="package.uml#_lvp7kCbhEeCp-e0OokJaJQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lvwCMSbhEeCp-e0OokJaJQ" x="690" y="36" width="385" height="342"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_yQLc4CbhEeCp-e0OokJaJQ" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="16446171" lineColor="0">
+  <children xmi:type="notation:Shape" xmi:id="_yQLc4CbhEeCp-e0OokJaJQ" type="2007" fontName="Droid Sans" fontHeight="8" fillColor="10011046" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yQMD8CbhEeCp-e0OokJaJQ" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yQMD8SbhEeCp-e0OokJaJQ" key="ShadowFigure_Value" value="false"/>
     </eAnnotations>
@@ -203,6 +203,42 @@
     </children>
     <element xmi:type="uml:Package" href="package.uml#_yQF9UCbhEeCp-e0OokJaJQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQLc4SbhEeCp-e0OokJaJQ" x="474" y="444" width="259" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aWoKoCu_EeCpy9FKCZWzeg" type="rectangle" fontName="Ubuntu" description="Model" fillColor="10011046" transparency="0" lineColor="0" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_aWoxsCu_EeCpy9FKCZWzeg" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_aWoxsSu_EeCpy9FKCZWzeg" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_aWoKoSu_EeCpy9FKCZWzeg"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_aWoKoiu_EeCpy9FKCZWzeg"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aWoKoyu_EeCpy9FKCZWzeg" x="72" y="12" width="81" height="34"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rk50gCu_EeCpy9FKCZWzeg" type="rectangle" fontName="Ubuntu" description="View" fillColor="8905185" transparency="0" lineColor="0" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_rk6bkCu_EeCpy9FKCZWzeg" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_rk7CoCu_EeCpy9FKCZWzeg" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_rk50gSu_EeCpy9FKCZWzeg"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_rk50giu_EeCpy9FKCZWzeg"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rk50gyu_EeCpy9FKCZWzeg" x="156" y="12" width="81" height="34"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wy-b4Cu_EeCpy9FKCZWzeg" type="rectangle" fontName="Ubuntu" description="Presenter" fillColor="10265827" transparency="0" lineColor="0" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wy-b5Cu_EeCpy9FKCZWzeg" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wy-b5Su_EeCpy9FKCZWzeg" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_wy-b4Su_EeCpy9FKCZWzeg"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_wy-b4iu_EeCpy9FKCZWzeg"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wy-b4yu_EeCpy9FKCZWzeg" x="240" y="12" width="81" height="34"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_EU_YESbgEeCp-e0OokJaJQ"/>
   <element xmi:type="uml:Model" href="package.uml#_EUDj8SbgEeCp-e0OokJaJQ"/>
