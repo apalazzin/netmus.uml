@@ -25,6 +25,10 @@ AppEngine e permettono di
 impacchetare la comunicazione da 
 e verso il client.</body>
   </ownedComment>
+  <ownedComment xmi:id="_FPS-kCxOEeCpkYb-6I-bGg">
+    <body>
+</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Package" xmi:id="_qUxHoColEeCRl8uiHbzv9A" name="client">
     <packagedElement xmi:type="uml:Package" xmi:id="_-RAMkColEeCRl8uiHbzv9A" name="mvp">
       <packagedElement xmi:type="uml:Class" xmi:id="_EWQzQCopEeCRl8uiHbzv9A" name="NetmusPlaceHistoryMapper"/>
@@ -434,29 +438,29 @@ e verso il client.</body>
   <packagedElement xmi:type="uml:Package" xmi:id="_E-OuICsZEeCt-qAFfpmB-g" name="shared">
     <packagedElement xmi:type="uml:Interface" xmi:id="_moksYCsaEeCt-qAFfpmB-g" name="Interface0"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_ziXpUCsaEeCt-qAFfpmB-g" name="GenericDTO"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_9q3jUCsaEeCt-qAFfpmB-g" name="SongSummaryDTO" clientDependency="_XPL1oCscEeCt-qAFfpmB-g _9bCFoCscEeCt-qAFfpmB-g">
+    <packagedElement xmi:type="uml:Class" xmi:id="_9q3jUCsaEeCt-qAFfpmB-g" name="SongSummaryDTO  " clientDependency="_XPL1oCscEeCt-qAFfpmB-g _9bCFoCscEeCt-qAFfpmB-g">
       <interfaceRealization xmi:id="_XPL1oCscEeCt-qAFfpmB-g" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_9q3jUCsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
       <interfaceRealization xmi:id="_9bCFoCscEeCt-qAFfpmB-g" name="InterfaceRealization1" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_9q3jUCsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_9_6mQCsaEeCt-qAFfpmB-g" name="UserSummaryDTO" clientDependency="_z3cPgCscEeCt-qAFfpmB-g">
+    <packagedElement xmi:type="uml:Class" xmi:id="_9_6mQCsaEeCt-qAFfpmB-g" name="UserSummaryDTO  " clientDependency="_z3cPgCscEeCt-qAFfpmB-g">
       <interfaceRealization xmi:id="_z3cPgCscEeCt-qAFfpmB-g" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_9_6mQCsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_-PBZQCsaEeCt-qAFfpmB-g" name="LoginDTO" clientDependency="_hbCloCscEeCt-qAFfpmB-g">
+    <packagedElement xmi:type="uml:Class" xmi:id="_-PBZQCsaEeCt-qAFfpmB-g" name="LoginDTO  " clientDependency="_hbCloCscEeCt-qAFfpmB-g">
       <interfaceRealization xmi:id="_hbCloCscEeCt-qAFfpmB-g" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_-PBZQCsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_-fL8MCsaEeCt-qAFfpmB-g" name="SongDTO" clientDependency="_7Hn4kCscEeCt-qAFfpmB-g">
+    <packagedElement xmi:type="uml:Class" xmi:id="_-fL8MCsaEeCt-qAFfpmB-g" name="SongDTO  " clientDependency="_7Hn4kCscEeCt-qAFfpmB-g">
       <generalization xmi:id="_rj-HkSuXEeC-56RB_-gM1Q" general="_9q3jUCsaEeCt-qAFfpmB-g"/>
       <interfaceRealization xmi:id="_7Hn4kCscEeCt-qAFfpmB-g" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_-fL8MCsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_-0GcQCsaEeCt-qAFfpmB-g" name="UserDTO" clientDependency="_2divECscEeCt-qAFfpmB-g">
+    <packagedElement xmi:type="uml:Class" xmi:id="_-0GcQCsaEeCt-qAFfpmB-g" name="UserDTO  " clientDependency="_2divECscEeCt-qAFfpmB-g">
       <generalization xmi:id="_-WHNYCuWEeC3PtjFoR7QVQ" general="_9_6mQCsaEeCt-qAFfpmB-g"/>
       <interfaceRealization xmi:id="_2divECscEeCt-qAFfpmB-g" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_-0GcQCsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="__E0Y0CsaEeCt-qAFfpmB-g" name="UserCompleteDTO" clientDependency="_l8Z4ACscEeCt-qAFfpmB-g">
+    <packagedElement xmi:type="uml:Class" xmi:id="__E0Y0CsaEeCt-qAFfpmB-g" name="UserCompleteDTO  " clientDependency="_l8Z4ACscEeCt-qAFfpmB-g">
       <generalization xmi:id="_Ar_foCuXEeC3PtjFoR7QVQ" general="_-0GcQCsaEeCt-qAFfpmB-g"/>
       <interfaceRealization xmi:id="_l8Z4ACscEeCt-qAFfpmB-g" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="__E0Y0CsaEeCt-qAFfpmB-g" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_sC2F0CugEeCpy9FKCZWzeg" name="MusicLibraryDTO" clientDependency="_3S7S8CugEeCpy9FKCZWzeg">
+    <packagedElement xmi:type="uml:Class" xmi:id="_sC2F0CugEeCpy9FKCZWzeg" name="MusicLibraryDTO  " clientDependency="_3S7S8CugEeCpy9FKCZWzeg">
       <interfaceRealization xmi:id="_3S7S8CugEeCpy9FKCZWzeg" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_sC2F0CugEeCpy9FKCZWzeg" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-Fi2QCugEeCpy9FKCZWzeg" name="PlayListDTO" clientDependency="_FC0KYCuhEeCpy9FKCZWzeg">
