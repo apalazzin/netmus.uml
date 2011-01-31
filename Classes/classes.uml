@@ -327,48 +327,42 @@ e verso il client.</body>
   <packagedElement xmi:type="uml:Class" xmi:id="_-nankCrMEeC15sdXk52UZw" name="ProductA2">
     <generalization xmi:id="_qAH-ACrNEeC15sdXk52UZw" general="_xu-8kCrMEeC15sdXk52UZw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="__Z_7ECrMEeC15sdXk52UZw" name="Client">
-    <ownedAttribute xmi:id="_ryR4ICrNEeC15sdXk52UZw" name="abstractProductA" type="_xu-8kCrMEeC15sdXk52UZw" association="_ryTtUCrNEeC15sdXk52UZw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ryR4ISrNEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ryR4IirNEeC15sdXk52UZw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_ui_sQCrNEeC15sdXk52UZw" name="abstractProductB" type="_57RokCrMEeC15sdXk52UZw" association="_ujCIgCrNEeC15sdXk52UZw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ui_sQSrNEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ui_sQirNEeC15sdXk52UZw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_6L1-sCrNEeC15sdXk52UZw" name="abstractFactory" type="_GNJUwCrLEeC15sdXk52UZw" association="_6L4a8CrNEeC15sdXk52UZw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6L1-sSrNEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6L1-sirNEeC15sdXk52UZw" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ryTtUCrNEeC15sdXk52UZw" name="" memberEnd="_ryTtUSrNEeC15sdXk52UZw _ryR4ICrNEeC15sdXk52UZw">
+  <packagedElement xmi:type="uml:Class" xmi:id="__Z_7ECrMEeC15sdXk52UZw" name="Client"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ryTtUCrNEeC15sdXk52UZw" name="" memberEnd="_ryTtUSrNEeC15sdXk52UZw _ryR4ICrNEeC15sdXk52UZw" navigableOwnedEnd="_ryR4ICrNEeC15sdXk52UZw">
     <ownedEnd xmi:id="_ryTtUSrNEeC15sdXk52UZw" name="client" type="__Z_7ECrMEeC15sdXk52UZw" association="_ryTtUCrNEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ryTtUirNEeC15sdXk52UZw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ryTtUyrNEeC15sdXk52UZw" value="1"/>
     </ownedEnd>
+    <ownedEnd xmi:id="_ryR4ICrNEeC15sdXk52UZw" name="abstractProductA" type="_xu-8kCrMEeC15sdXk52UZw" association="_ryTtUCrNEeC15sdXk52UZw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ryR4ISrNEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ryR4IirNEeC15sdXk52UZw" value="1"/>
+    </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ujCIgCrNEeC15sdXk52UZw" name="client_abstractProductB_0" memberEnd="_ujCIgSrNEeC15sdXk52UZw _ui_sQCrNEeC15sdXk52UZw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_ujCIgCrNEeC15sdXk52UZw" name="client_abstractProductB_0" memberEnd="_ujCIgSrNEeC15sdXk52UZw _ui_sQCrNEeC15sdXk52UZw" navigableOwnedEnd="_ui_sQCrNEeC15sdXk52UZw">
     <ownedEnd xmi:id="_ujCIgSrNEeC15sdXk52UZw" name="client" type="__Z_7ECrMEeC15sdXk52UZw" association="_ujCIgCrNEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ujCIgirNEeC15sdXk52UZw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ujCIgyrNEeC15sdXk52UZw" value="1"/>
     </ownedEnd>
+    <ownedEnd xmi:id="_ui_sQCrNEeC15sdXk52UZw" name="abstractProductB" type="_57RokCrMEeC15sdXk52UZw" association="_ujCIgCrNEeC15sdXk52UZw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ui_sQSrNEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ui_sQirNEeC15sdXk52UZw" value="1"/>
+    </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_6L4a8CrNEeC15sdXk52UZw" name="client_abstractFactory_0" memberEnd="_6L4a8SrNEeC15sdXk52UZw _6L1-sCrNEeC15sdXk52UZw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_6L4a8CrNEeC15sdXk52UZw" name="client_abstractFactory_0" memberEnd="_6L4a8SrNEeC15sdXk52UZw _6L1-sCrNEeC15sdXk52UZw" navigableOwnedEnd="_6L1-sCrNEeC15sdXk52UZw">
     <ownedEnd xmi:id="_6L4a8SrNEeC15sdXk52UZw" name="client" type="__Z_7ECrMEeC15sdXk52UZw" association="_6L4a8CrNEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6L4a8irNEeC15sdXk52UZw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6L4a8yrNEeC15sdXk52UZw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6L1-sCrNEeC15sdXk52UZw" name="abstractFactory" type="_GNJUwCrLEeC15sdXk52UZw" association="_6L4a8CrNEeC15sdXk52UZw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6L1-sSrNEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6L1-sirNEeC15sdXk52UZw" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_gkJ9YCrOEeC15sdXk52UZw" name="" supplier="_7f-8kCrMEeC15sdXk52UZw" client="_nllDoCrMEeC15sdXk52UZw"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_jN_GYCrOEeC15sdXk52UZw" name="" supplier="_9tDRECrMEeC15sdXk52UZw" client="_nllDoCrMEeC15sdXk52UZw"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_opNY8CrOEeC15sdXk52UZw" name="" supplier="_80NkkCrMEeC15sdXk52UZw" client="_osS0ECrMEeC15sdXk52UZw"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_tmcH8CrOEeC15sdXk52UZw" name="" supplier="_-nankCrMEeC15sdXk52UZw" client="_osS0ECrMEeC15sdXk52UZw"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_T54tYCrSEeC15sdXk52UZw" name="Businness Object">
-    <ownedAttribute xmi:id="_Cf-wYCrUEeC15sdXk52UZw" name="data Transfer Object" type="_YhrX4CrSEeC15sdXk52UZw" association="_CgBMoCrUEeC15sdXk52UZw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cf-wYSrUEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cf-wYirUEeC15sdXk52UZw" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_T54tYCrSEeC15sdXk52UZw" name="Businness Object"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Vy9u4CrSEeC15sdXk52UZw" name="Data Access Object">
     <ownedAttribute xmi:id="_wE-DECrSEeC15sdXk52UZw" name="data Source" type="_bI1nYCrSEeC15sdXk52UZw" association="_wE_4QCrSEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wE-DESrSEeC15sdXk52UZw" value="1"/>
@@ -377,14 +371,6 @@ e verso il client.</body>
     <ownedAttribute xmi:id="_TPLHACrTEeC15sdXk52UZw" name="data Source" type="_bI1nYCrSEeC15sdXk52UZw" association="_TPM8MCrTEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TPLHASrTEeC15sdXk52UZw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPLHAirTEeC15sdXk52UZw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_6Fc0ECrTEeC15sdXk52UZw" name="data Source" type="_bI1nYCrSEeC15sdXk52UZw" association="_6FepQCrTEeC15sdXk52UZw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6Fc0ESrTEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6Fc0EirTEeC15sdXk52UZw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_J6Jb4CrUEeC15sdXk52UZw" name="data Transfer Object" type="_YhrX4CrSEeC15sdXk52UZw" association="_J6LRECrUEeC15sdXk52UZw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J6Jb4SrUEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J6Jb4irUEeC15sdXk52UZw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_YhrX4CrSEeC15sdXk52UZw" name="Data Transfer Object"/>
@@ -401,22 +387,34 @@ e verso il client.</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPM8MyrTEeC15sdXk52UZw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_6FepQCrTEeC15sdXk52UZw" name="incapsula" memberEnd="_6FepQSrTEeC15sdXk52UZw _6Fc0ECrTEeC15sdXk52UZw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_6FepQCrTEeC15sdXk52UZw" name="incapsula" memberEnd="_6FepQSrTEeC15sdXk52UZw _6Fc0ECrTEeC15sdXk52UZw" navigableOwnedEnd="_6Fc0ECrTEeC15sdXk52UZw">
     <ownedEnd xmi:id="_6FepQSrTEeC15sdXk52UZw" name="data Access Object" type="_Vy9u4CrSEeC15sdXk52UZw" association="_6FepQCrTEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6FepQirTEeC15sdXk52UZw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6FepQyrTEeC15sdXk52UZw" value="1"/>
     </ownedEnd>
+    <ownedEnd xmi:id="_6Fc0ECrTEeC15sdXk52UZw" name="data Source" type="_bI1nYCrSEeC15sdXk52UZw" association="_6FepQCrTEeC15sdXk52UZw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6Fc0ESrTEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6Fc0EirTEeC15sdXk52UZw" value="1"/>
+    </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_CgBMoCrUEeC15sdXk52UZw" name="ottiene/modifica" memberEnd="_CgBMoSrUEeC15sdXk52UZw _Cf-wYCrUEeC15sdXk52UZw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_CgBMoCrUEeC15sdXk52UZw" name="ottiene/modifica" memberEnd="_CgBMoSrUEeC15sdXk52UZw _Cf-wYCrUEeC15sdXk52UZw" navigableOwnedEnd="_Cf-wYCrUEeC15sdXk52UZw">
     <ownedEnd xmi:id="_CgBMoSrUEeC15sdXk52UZw" name="businness Object" type="_T54tYCrSEeC15sdXk52UZw" association="_CgBMoCrUEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CgBMoirUEeC15sdXk52UZw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CgBMoyrUEeC15sdXk52UZw" value="1"/>
     </ownedEnd>
+    <ownedEnd xmi:id="_Cf-wYCrUEeC15sdXk52UZw" name="data Transfer Object" type="_YhrX4CrSEeC15sdXk52UZw" association="_CgBMoCrUEeC15sdXk52UZw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cf-wYSrUEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cf-wYirUEeC15sdXk52UZw" value="1"/>
+    </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_J6LRECrUEeC15sdXk52UZw" name="crea" memberEnd="_J6LRESrUEeC15sdXk52UZw _J6Jb4CrUEeC15sdXk52UZw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_J6LRECrUEeC15sdXk52UZw" name="crea" memberEnd="_J6LRESrUEeC15sdXk52UZw _J6Jb4CrUEeC15sdXk52UZw" navigableOwnedEnd="_J6Jb4CrUEeC15sdXk52UZw">
+    <ownedEnd xmi:id="_J6Jb4CrUEeC15sdXk52UZw" name="data Transfer Object" type="_YhrX4CrSEeC15sdXk52UZw" association="_J6LRECrUEeC15sdXk52UZw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J6Jb4SrUEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J6Jb4irUEeC15sdXk52UZw" value="1"/>
+    </ownedEnd>
     <ownedEnd xmi:id="_J6LRESrUEeC15sdXk52UZw" name="data Access Object" type="_Vy9u4CrSEeC15sdXk52UZw" association="_J6LRECrUEeC15sdXk52UZw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J6LREirUEeC15sdXk52UZw" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J6LREyrUEeC15sdXk52UZw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J6LREyrUEeC15sdXk52UZw"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_vsAekCrUEeC15sdXk52UZw" name="Singleton" isActive="true">
