@@ -466,6 +466,25 @@ e verso il client.</body>
     <packagedElement xmi:type="uml:Class" xmi:id="_-Fi2QCugEeCpy9FKCZWzeg" name="PlayListDTO" clientDependency="_FC0KYCuhEeCpy9FKCZWzeg">
       <interfaceRealization xmi:id="_FC0KYCuhEeCpy9FKCZWzeg" name="InterfaceRealization0" supplier="_ziXpUCsaEeCt-qAFfpmB-g" client="_-Fi2QCugEeCpy9FKCZWzeg" contract="_ziXpUCsaEeCt-qAFfpmB-g"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OW4pMCzSEeCSgsyfwsHZHQ" name="Class0"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ft8boCzSEeCSgsyfwsHZHQ" name="exception">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZkuaoCzSEeCSgsyfwsHZHQ" name="LoginException">
+        <generalization xmi:id="_STKcECzTEeCSgsyfwsHZHQ" general="_WpW1sCzSEeCSgsyfwsHZHQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WpW1sCzSEeCSgsyfwsHZHQ" name="NetMusException"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b5kyICzSEeCSgsyfwsHZHQ" name="WrongLoginException">
+        <generalization xmi:id="_X-UoECzTEeCSgsyfwsHZHQ" general="_ZkuaoCzSEeCSgsyfwsHZHQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_whiUoCzSEeCSgsyfwsHZHQ" name="RegistrationException">
+        <generalization xmi:id="_RaB0oCzTEeCSgsyfwsHZHQ" general="_WpW1sCzSEeCSgsyfwsHZHQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z9Z-kCzSEeCSgsyfwsHZHQ" name="DuplicateEmailException">
+        <generalization xmi:id="_UJaMACzTEeCSgsyfwsHZHQ" general="_whiUoCzSEeCSgsyfwsHZHQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yDWFoCzSEeCSgsyfwsHZHQ" name="NickNotFreeException">
+        <generalization xmi:id="_V5HPECzTEeCSgsyfwsHZHQ" general="_whiUoCzSEeCSgsyfwsHZHQ"/>
+      </packagedElement>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_GvvIACsZEeCt-qAFfpmB-g" name="server">
     <packagedElement xmi:type="uml:Package" xmi:id="_GbYooCsZEeCt-qAFfpmB-g" name="Utils">
