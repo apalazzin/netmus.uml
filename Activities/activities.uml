@@ -166,7 +166,7 @@
         <inputValue xmi:id="_GUozYCy5EeCSgsyfwsHZHQ" name="elenco brani" incoming="_GWBTcCy5EeCSgsyfwsHZHQ _sc4fUCzFEeCSgsyfwsHZHQ"/>
         <outputValue xmi:id="_TddDwCy5EeCSgsyfwsHZHQ" name="elenco brani" outgoing="_TeWboCy5EeCSgsyfwsHZHQ"/>
       </node>
-      <node xmi:type="uml:OpaqueAction" xmi:id="__0T58Cy4EeCSgsyfwsHZHQ" name="Estrazione brani da file system">
+      <node xmi:type="uml:OpaqueAction" xmi:id="__0T58Cy4EeCSgsyfwsHZHQ" name="Estrazione brani da file system" incoming="_l2230C0YEeCmHI0NukZ1WA">
         <outputValue xmi:id="_uxLdMCzFEeCSgsyfwsHZHQ" name="elenco brani" outgoing="_uzFhsCzFEeCSgsyfwsHZHQ"/>
       </node>
       <node xmi:type="uml:DataStoreNode" xmi:id="_hXcSYCy5EeCSgsyfwsHZHQ" name="Salva brani nel database"/>
@@ -175,6 +175,7 @@
       </node>
       <node xmi:type="uml:ActivityFinalNode" xmi:id="_ElraYCy9EeCSgsyfwsHZHQ" name="ActivityFinalNode2" incoming="_JWBj8Cy9EeCSgsyfwsHZHQ"/>
       <node xmi:type="uml:OpaqueAction" xmi:id="_qzJfMCy2EeCSgsyfwsHZHQ" name="Controlla presenza tag" outgoing="_1Dl0QCy2EeCSgsyfwsHZHQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_jqTgsC0YEeCmHI0NukZ1WA" name="InitialNode2" outgoing="_l2230C0YEeCmHI0NukZ1WA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_HqCsoCykEeCSgsyfwsHZHQ" name="ControlFlow1" source="_G4Og4CxyEeCEp5vrd16xqw" target="_mJBDQCxyEeCEp5vrd16xqw"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_K4atICykEeCSgsyfwsHZHQ" name="ControlFlow2" source="_mJBDQCxyEeCEp5vrd16xqw" target="_7Zm2kCxzEeCEp5vrd16xqw"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_L73HICykEeCSgsyfwsHZHQ" name="ControlFlow3" source="_7Zm2kCxzEeCEp5vrd16xqw" target="_f_rGcCxyEeCEp5vrd16xqw"/>
@@ -212,6 +213,7 @@
       <edge xmi:type="uml:ControlFlow" xmi:id="_JWBj8Cy9EeCSgsyfwsHZHQ" name="" source="_6r3SECy7EeCSgsyfwsHZHQ" target="_ElraYCy9EeCSgsyfwsHZHQ"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_sc4fUCzFEeCSgsyfwsHZHQ" name="" source="_kYS90CzFEeCSgsyfwsHZHQ" target="_GUozYCy5EeCSgsyfwsHZHQ"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_uzFhsCzFEeCSgsyfwsHZHQ" name="" source="_uxLdMCzFEeCSgsyfwsHZHQ" target="_jpwc0CzFEeCSgsyfwsHZHQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_l2230C0YEeCmHI0NukZ1WA" name="" source="_jqTgsC0YEeCmHI0NukZ1WA" target="__0T58Cy4EeCSgsyfwsHZHQ"/>
       <group xmi:type="uml:StructuredActivityNode" xmi:id="_hMhL4CylEeCSgsyfwsHZHQ" name="StructuredActivityNode1"/>
       <group xmi:type="uml:ExpansionRegion" xmi:id="_iDuGYCy1EeCSgsyfwsHZHQ" name="ExpansionRegion1" inputElement="_oEnR0Cy1EeCSgsyfwsHZHQ" outputElement="_pQiSYCy1EeCSgsyfwsHZHQ">
         <node xmi:type="uml:ExpansionNode" xmi:id="_oEnR0Cy1EeCSgsyfwsHZHQ" name="ExpansionNode1" incoming="_QKKOYCy2EeCSgsyfwsHZHQ _CtEhsCy3EeCSgsyfwsHZHQ" regionAsInput="_iDuGYCy1EeCSgsyfwsHZHQ"/>

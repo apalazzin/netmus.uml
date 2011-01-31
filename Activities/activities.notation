@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
   <notation:Diagram xmi:id="_nt4tICxjEeCpkYb-6I-bGg" type="PapyrusUMLActivityDiagram" name="LoginActivity" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_nt4tISxjEeCpkYb-6I-bGg" type="2001" fontName="Ubuntu" fillColor="14145497" lineColor="0">
+    <children xmi:type="notation:Shape" xmi:id="_nt4tISxjEeCpkYb-6I-bGg" type="2001" fontName="Ubuntu" fillColor="16443110" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nt4tIixjEeCpkYb-6I-bGg" source="ShadowFigure">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nt4tIyxjEeCpkYb-6I-bGg" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
@@ -726,7 +726,7 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_879FACxxEeCEp5vrd16xqw" type="PapyrusUMLActivityDiagram" name="ViewActivity" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_879FASxxEeCEp5vrd16xqw" type="2001" fontName="Ubuntu" fillColor="14145497" lineColor="0">
+    <children xmi:type="notation:Shape" xmi:id="_879FASxxEeCEp5vrd16xqw" type="2001" fontName="Ubuntu" fillColor="16443110" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G4kbICyeEeCSgsyfwsHZHQ" source="QualifiedName">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G4kbISyeEeCSgsyfwsHZHQ" key="QualifiedNameDepth" value="2"/>
       </eAnnotations>
@@ -785,7 +785,7 @@
           <element xmi:type="uml:CallBehaviorAction" href="activities.uml#_f_rGcCxyEeCEp5vrd16xqw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f_s7oixyEeCEp5vrd16xqw" x="7" y="130" width="65" height="50"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_WRrBMCygEeCSgsyfwsHZHQ" type="3083" fontName="Ubuntu" fillColor="14145497" lineColor="0">
+        <children xmi:type="notation:Shape" xmi:id="_WRrBMCygEeCSgsyfwsHZHQ" type="3083" fontName="Ubuntu" fillColor="16443110" lineColor="0">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WRsPUCygEeCSgsyfwsHZHQ" source="ShadowFigure">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WRsPUSygEeCSgsyfwsHZHQ" key="ShadowFigure_Value" value="false"/>
           </eAnnotations>
@@ -1409,7 +1409,7 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_J1p8sCyxEeCSgsyfwsHZHQ" type="PapyrusUMLActivityDiagram" name="Trasmissione" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_J1p8sSyxEeCSgsyfwsHZHQ" type="2001" fontName="Ubuntu" fillColor="14145497" lineColor="0">
+    <children xmi:type="notation:Shape" xmi:id="_J1p8sSyxEeCSgsyfwsHZHQ" type="2001" fontName="Ubuntu" fillColor="16443110" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J1p8siyxEeCSgsyfwsHZHQ" source="ShadowFigure">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J1p8syyxEeCSgsyfwsHZHQ" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
@@ -1887,6 +1887,23 @@
           <element xmi:type="uml:ExpansionRegion" href="activities.uml#_ZphG8CzFEeCSgsyfwsHZHQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZpkKQizFEeCSgsyfwsHZHQ" x="31" y="94" width="169" height="73"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_jr_iwC0YEeCmHI0NukZ1WA" type="3004" fontName="Ubuntu" lineColor="0">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jsB_AC0YEeCmHI0NukZ1WA" source="ShadowFigure">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB_AS0YEeCmHI0NukZ1WA" key="ShadowFigure_Value" value="false"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jsB_Ai0YEeCmHI0NukZ1WA" source="displayNameLabelIcon">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB_Ay0YEeCmHI0NukZ1WA" key="displayNameLabelIcon_value" value="false"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jsCmEC0YEeCmHI0NukZ1WA" source="QualifiedName">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsCmES0YEeCmHI0NukZ1WA" key="QualifiedNameDepth" value="1000"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_jsCmEi0YEeCmHI0NukZ1WA" type="5080">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jsCmEy0YEeCmHI0NukZ1WA" y="5"/>
+          </children>
+          <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jr_iwS0YEeCmHI0NukZ1WA"/>
+          <element xmi:type="uml:InitialNode" href="activities.uml#_jqTgsC0YEeCmHI0NukZ1WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jr_iwi0YEeCmHI0NukZ1WA" x="271" y="10"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J1p8xyyxEeCSgsyfwsHZHQ"/>
       </children>
       <element xmi:type="uml:Activity" href="activities.uml#_6fAhcCxxEeCEp5vrd16xqw"/>
@@ -2211,6 +2228,24 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uzH98izFEeCSgsyfwsHZHQ" points="[4, 8, 12, -22]$[4, 22, 12, -8]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0DQa0CzFEeCSgsyfwsHZHQ" id="(0.6875,0.8125)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1b5owCzFEeCSgsyfwsHZHQ" id="(0.7083333333333334,0.875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_l3OEMC0YEeCmHI0NukZ1WA" type="4004" source="_jr_iwC0YEeCmHI0NukZ1WA" target="__0W9QCy4EeCSgsyfwsHZHQ" routing="Rectilinear" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_l3PSUC0YEeCmHI0NukZ1WA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l3PSUS0YEeCmHI0NukZ1WA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_l3PSUi0YEeCmHI0NukZ1WA" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l3PSUy0YEeCmHI0NukZ1WA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_l3PSVC0YEeCmHI0NukZ1WA" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l3PSVS0YEeCmHI0NukZ1WA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_l3P5YC0YEeCmHI0NukZ1WA" type="6011">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l3P5YS0YEeCmHI0NukZ1WA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_l3OEMS0YEeCmHI0NukZ1WA" fontName="Ubuntu"/>
+      <element xmi:type="uml:ControlFlow" href="activities.uml#_l2230C0YEeCmHI0NukZ1WA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_l3OEMi0YEeCmHI0NukZ1WA" points="[-10, 0, 76, 0]$[-250, 21, -164, 21]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l3X1MC0YEeCmHI0NukZ1WA" id="(0.9425287356321839,0.25)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
