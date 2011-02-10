@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_thJvQSJ-EeCkSsdwWMuWNg" name="NetMus - UseCases">
-  <packagedElement xmi:type="uml:Actor" xmi:id="_DzeIECL-EeCg7tcpsjzrrA" name="Utente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_DzeIECL-EeCg7tcpsjzrrA" name="Utente     "/>
   <packagedElement xmi:type="uml:Package" xmi:id="_xFtzACL-EeCg7tcpsjzrrA" name="Sistema NetMus (1/2)"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_0YtGYCMBEeCg7tcpsjzrrA" name="Sistema NetMus" useCase="_fwA5MCMDEeCg7tcpsjzrrA _xkEJoCMDEeCg7tcpsjzrrA _yJ6BoCMDEeCg7tcpsjzrrA">
     <ownedUseCase xmi:id="_fwA5MCMDEeCg7tcpsjzrrA" name="UC1.4.1 Registrazione Google" clientDependency="_UJ9fQCMHEeCg7tcpsjzrrA _1RNXgCMIEeCg7tcpsjzrrA" subject="_0YtGYCMBEeCg7tcpsjzrrA"/>
@@ -231,12 +231,19 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_2iljACMMEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_g0qeACMMEeCg7tcpsjzrrA" client="_RdxMgCMMEeCg7tcpsjzrrA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_4c4sgCMMEeCg7tcpsjzrrA" name="&lt;&lt;include>>" supplier="_g0qeACMMEeCg7tcpsjzrrA" client="_Ns_pkCMMEeCg7tcpsjzrrA"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_4F_B4CMsEeC0HpHLnIgW9g" name="Componente di persistenza e visualizzazione (C1)" useCase="_nnA4kCMtEeC0HpHLnIgW9g _pfvUwCMtEeC0HpHLnIgW9g _rf7D0CMtEeC0HpHLnIgW9g _sFQlgCMtEeC0HpHLnIgW9g _TmiXYCMuEeC0HpHLnIgW9g">
-    <ownedUseCase xmi:id="_nnA4kCMtEeC0HpHLnIgW9g" name="UC1.1.1 Cancellare profilo" clientDependency="_t18DgCMuEeC0HpHLnIgW9g" subject="_4F_B4CMsEeC0HpHLnIgW9g"/>
-    <ownedUseCase xmi:id="_pfvUwCMtEeC0HpHLnIgW9g" name="UC1.1.2 Pubblicare profilo" subject="_4F_B4CMsEeC0HpHLnIgW9g"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_4F_B4CMsEeC0HpHLnIgW9g" name="Componente di persistenza e visualizzazione (C1)" useCase="_nnA4kCMtEeC0HpHLnIgW9g _pfvUwCMtEeC0HpHLnIgW9g _rf7D0CMtEeC0HpHLnIgW9g _sFQlgCMtEeC0HpHLnIgW9g _TmiXYCMuEeC0HpHLnIgW9g _hhDegDUWEeCPpZeYOM7ygw">
+    <ownedUseCase xmi:id="_nnA4kCMtEeC0HpHLnIgW9g" name="UC1.1.1 Cancellare profilo" clientDependency="_t18DgCMuEeC0HpHLnIgW9g" subject="_4F_B4CMsEeC0HpHLnIgW9g">
+      <include xmi:id="_yzn9EDUXEeCPpZeYOM7ygw" addition="_TmiXYCMuEeC0HpHLnIgW9g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_pfvUwCMtEeC0HpHLnIgW9g" name="UC1.1.2 Pubblicare profilo" subject="_4F_B4CMsEeC0HpHLnIgW9g">
+      <include xmi:id="_IG0DUDUXEeCPpZeYOM7ygw" addition="_h1vVEDUWEeCPpZeYOM7ygw"/>
+      <include xmi:id="_Wg-m0DUXEeCPpZeYOM7ygw" addition="_hhDegDUWEeCPpZeYOM7ygw"/>
+    </ownedUseCase>
     <ownedUseCase xmi:id="_rf7D0CMtEeC0HpHLnIgW9g" name="UseCase" subject="_4F_B4CMsEeC0HpHLnIgW9g"/>
     <ownedUseCase xmi:id="_sFQlgCMtEeC0HpHLnIgW9g" name="UC1.1.3 Modificare informazioni profilo" subject="_4F_B4CMsEeC0HpHLnIgW9g"/>
     <ownedUseCase xmi:id="_TmiXYCMuEeC0HpHLnIgW9g" name="UC1.1.4 Cancellare catalogo" subject="_4F_B4CMsEeC0HpHLnIgW9g"/>
+    <ownedUseCase xmi:id="_hhDegDUWEeCPpZeYOM7ygw" name="UC1.1.6 Pubblicare a selezione" subject="_4F_B4CMsEeC0HpHLnIgW9g"/>
+    <ownedUseCase xmi:id="_h1vVEDUWEeCPpZeYOM7ygw" name="1.1.5 Pubblicare a tutti"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_ZlfekCMtEeC0HpHLnIgW9g" name="YouTube"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_oDhY8CMuEeC0HpHLnIgW9g" name="" memberEnd="_oDhY8SMuEeC0HpHLnIgW9g _oDhY9CMuEeC0HpHLnIgW9g">
@@ -493,6 +500,26 @@ Extension point: offline</body>
     <ownedEnd xmi:id="_y4bJxCVOEeCcu-WWee18YA" name="uc1.3.5 creare playlist" type="_myeEkCVOEeCcu-WWee18YA" association="_y4bJwCVOEeCcu-WWee18YA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4bJxSVOEeCcu-WWee18YA" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4bJxiVOEeCcu-WWee18YA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_23TDUDUWEeCPpZeYOM7ygw" name="" memberEnd="_23TDUTUWEeCPpZeYOM7ygw _23TDVDUWEeCPpZeYOM7ygw">
+    <ownedEnd xmi:id="_23TDUTUWEeCPpZeYOM7ygw" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_23TDUDUWEeCPpZeYOM7ygw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_23TDUjUWEeCPpZeYOM7ygw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_23TDUzUWEeCPpZeYOM7ygw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_23TDVDUWEeCPpZeYOM7ygw" name="1.1.5 pubblicare a tutti" type="_h1vVEDUWEeCPpZeYOM7ygw" association="_23TDUDUWEeCPpZeYOM7ygw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_23TDVTUWEeCPpZeYOM7ygw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_23TDVjUWEeCPpZeYOM7ygw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4UrnUDUWEeCPpZeYOM7ygw" name="" memberEnd="_4UrnUTUWEeCPpZeYOM7ygw _4UrnVDUWEeCPpZeYOM7ygw">
+    <ownedEnd xmi:id="_4UrnUTUWEeCPpZeYOM7ygw" name="utente" type="_DzeIECL-EeCg7tcpsjzrrA" association="_4UrnUDUWEeCPpZeYOM7ygw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4UrnUjUWEeCPpZeYOM7ygw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4UrnUzUWEeCPpZeYOM7ygw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_4UrnVDUWEeCPpZeYOM7ygw" name="uc1.1.6 pubblicare a selezione" type="_hhDegDUWEeCPpZeYOM7ygw" association="_4UrnUDUWEeCPpZeYOM7ygw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4UrnVTUWEeCPpZeYOM7ygw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4UrnVjUWEeCPpZeYOM7ygw" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
