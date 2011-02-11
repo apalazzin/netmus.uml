@@ -16,13 +16,13 @@
     <availablePage>
       <emfPageIdentifier href="classes.notation#_2l_dQSsYEeCt-qAFfpmB-g"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="classes.notation#_HHTlwDUlEeC6iN131zdgIQ"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
-        <children>
-          <emfPageIdentifier href="classes.notation#_VJxT4CoBEeCRl8uiHbzv9A"/>
-        </children>
         <children>
           <emfPageIdentifier href="classes.notation#_2d0KkSrJEeC15sdXk52UZw"/>
         </children>
@@ -34,6 +34,9 @@
         </children>
         <children>
           <emfPageIdentifier href="classes.notation#_2l_dQSsYEeCt-qAFfpmB-g"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="classes.notation#_HHTlwDUlEeC6iN131zdgIQ"/>
         </children>
       </children>
     </windows>
