@@ -1,61 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_4mqVMDPDEeCbI5kOPEp-CA" name="classes">
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_4mqVMDPDEeCbI5kOPEp-CA" name="classes">
+  <ownedComment xmi:id="_i4_soDlaEeCMDMan_05A7g" annotatedElement="_Gg-eEDQ_EeCA7qWDNQtS3w">
+    <body>All'interno dei metodi dell'interfaccia Presenter implementati da LoginActivity vi sono le chiamate asincrone ai service che collegano il client al server.</body>
+  </ownedComment>
   <packageImport xmi:id="_4mqVMTPDEeCbI5kOPEp-CA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_sl2uYDPGEeCbI5kOPEp-CA" name="it.unipd.netmus.client">
     <packagedElement xmi:type="uml:Package" xmi:id="_4TnWADPGEeCbI5kOPEp-CA" name="ui">
       <ownedComment xmi:id="_LGgJoDQ9EeCA7qWDNQtS3w" annotatedElement="_F7ZMIDQ8EeCA7qWDNQtS3w">
-        <body>Implementazione con l'utilizzo del framework UiBinder</body>
+        <body>Implementazione della grafica con l'utilizzo del framework UiBinder</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_VpNiIDQ3EeCp4qn6Gke9_w" name="LoginView">
         <nestedClassifier xmi:type="uml:Interface" xmi:id="_AfbaEDQ5EeCA7qWDNQtS3w" name="Presenter">
           <ownedOperation xmi:id="_hMu9wDQ5EeCA7qWDNQtS3w" name="goTo">
             <ownedParameter xmi:id="__y-8EDQ-EeCA7qWDNQtS3w" name="param_0" type="_rQhaEDQ9EeCA7qWDNQtS3w"/>
           </ownedOperation>
+          <ownedOperation xmi:id="_-jgpoDUtEeCTgvMC7BroSA" name="sendLogin">
+            <ownedParameter xmi:id="_DAr_kDUuEeCTgvMC7BroSA" name="param_0" type="_KNgLkDUuEeCTgvMC7BroSA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_KY5GwDUvEeCTgvMC7BroSA" name="sendRegistration">
+            <ownedParameter xmi:id="_MkEk4DUvEeCTgvMC7BroSA" name="param_0" type="_KNgLkDUuEeCTgvMC7BroSA"/>
+          </ownedOperation>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Interface" xmi:id="_lqeUYDQ5EeCA7qWDNQtS3w" name="Presenter"/>
-        <ownedOperation xmi:id="_Pl-z0DPIEeCbI5kOPEp-CA" name="setPresenter">
-          <ownedParameter xmi:id="_tVIH0DPJEeCbI5kOPEp-CA" name="param_0">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_JAMgsDPKEeCbI5kOPEp-CA"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_V8oX8DQ4EeCp4qn6Gke9_w" name="setName">
-          <ownedParameter xmi:id="_XMNJcDQ4EeCp4qn6Gke9_w" name="loginName">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
+        <nestedClassifier xmi:type="uml:DataType" xmi:id="_KNgLkDUuEeCTgvMC7BroSA" name="LoginDTO"/>
+        <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_NTAIcDUkEeCTgvMC7BroSA" name="LoginType"/>
+        <ownedOperation xmi:id="_V8oX8DQ4EeCp4qn6Gke9_w" name="setLoginType" visibility="public">
+          <ownedParameter xmi:id="_XMNJcDQ4EeCp4qn6Gke9_w" name="loginName" type="_NTAIcDUkEeCTgvMC7BroSA"/>
         </ownedOperation>
         <ownedOperation xmi:id="_OIKgoDQ5EeCA7qWDNQtS3w" name="setPresenter">
           <ownedParameter xmi:id="_SV_L8DQ5EeCA7qWDNQtS3w" name="listener" type="_AfbaEDQ5EeCA7qWDNQtS3w"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_YXV9sDlYEeCMDMan_05A7g" name="setUser">
+          <ownedParameter xmi:id="_bPaXADlYEeCMDMan_05A7g" name="user">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_nJEsoDlYEeCMDMan_05A7g" name="setPassword">
+          <ownedParameter xmi:id="_oha_oDlYEeCMDMan_05A7g" name="param_0">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_qLLywDlYEeCMDMan_05A7g" name="setError">
+          <ownedParameter xmi:id="_s52YcDlYEeCMDMan_05A7g" name="error">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yih6ADQ7EeCA7qWDNQtS3w" name="LoginViewImpl" clientDependency="_F7ZMIDQ8EeCA7qWDNQtS3w"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yih6ADQ7EeCA7qWDNQtS3w" name="LoginViewImpl" clientDependency="_F7ZMIDQ8EeCA7qWDNQtS3w">
+        <ownedAttribute xmi:id="_uE9C8DUhEeCTgvMC7BroSA" name="listener" visibility="private" type="_AfbaEDQ5EeCA7qWDNQtS3w" isUnique="false"/>
+        <ownedAttribute xmi:id="_2lmOUDUhEeCTgvMC7BroSA" name="type" visibility="private" type="_NTAIcDUkEeCTgvMC7BroSA" isUnique="false">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hAxTkDUkEeCTgvMC7BroSA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hAp-0DUkEeCTgvMC7BroSA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_hA5PYDUkEeCTgvMC7BroSA">
+            <value xsi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_F7ZMIDQ8EeCA7qWDNQtS3w" name="FromLoginViewImpltoLoginView" supplier="_VpNiIDQ3EeCp4qn6Gke9_w" client="_yih6ADQ7EeCA7qWDNQtS3w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_8_lpsDU2EeCTgvMC7BroSA" name="&lt;&lt;call>>" supplier="_VpNiIDQ3EeCp4qn6Gke9_w" client="_sm-kwDQ_EeCA7qWDNQtS3w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_rQhaEDQ9EeCA7qWDNQtS3w" name="Place"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_umHc4DQ9EeCA7qWDNQtS3w" name="place">
       <packagedElement xmi:type="uml:Class" xmi:id="_y-ekQDQ9EeCA7qWDNQtS3w" name="LoginPlace">
-        <ownedAttribute xmi:id="__jzGADQ9EeCA7qWDNQtS3w" name="loginName" visibility="private" isUnique="false">
+        <ownedAttribute xmi:id="__jzGADQ9EeCA7qWDNQtS3w" name="user" visibility="private" isUnique="false">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QP2zoDQ-EeCA7qWDNQtS3w" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QPlt4DQ-EeCA7qWDNQtS3w" value="1"/>
         </ownedAttribute>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_cf7eIDQ-EeCA7qWDNQtS3w" name="activity">
-      <packagedElement xmi:type="uml:Class" xmi:id="_Gg-eEDQ_EeCA7qWDNQtS3w" name="LoginActivity" clientDependency="_NfUwQDQ_EeCA7qWDNQtS3w">
-        <ownedAttribute xmi:id="_fZiTEDQ_EeCA7qWDNQtS3w" name="name" visibility="private" isUnique="false">
+        <ownedAttribute xmi:id="_jKp6sDX0EeCtrLj5X4Fj8w" name="password" visibility="private" isUnique="false">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_sm-kwDQ_EeCA7qWDNQtS3w" name="clientFactory" visibility="private" type="_lp6E8DQ_EeCA7qWDNQtS3w" isUnique="false"/>
+        <ownedAttribute xmi:id="_lm1pQDX0EeCtrLj5X4Fj8w" name="error" visibility="private" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MOVvEDlZEeCMDMan_05A7g" name="loginType" visibility="private" type="_NTAIcDUkEeCTgvMC7BroSA" isUnique="false"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_KrMQUDUyEeCTgvMC7BroSA" name="Tokenizer" isActive="true"/>
+        <ownedOperation xmi:id="_Hyn8QDlaEeCMDMan_05A7g" name="getters"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_TbR-MDU4EeCTgvMC7BroSA" name="FromLoginActivitytoLoginPlace" supplier="_y-ekQDQ9EeCA7qWDNQtS3w" client="_Gg-eEDQ_EeCA7qWDNQtS3w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cf7eIDQ-EeCA7qWDNQtS3w" name="activity">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Gg-eEDQ_EeCA7qWDNQtS3w" name="LoginActivity" clientDependency="_NfUwQDQ_EeCA7qWDNQtS3w _TbR-MDU4EeCTgvMC7BroSA">
+        <ownedAttribute xmi:id="_fZiTEDQ_EeCA7qWDNQtS3w" name="loginName" visibility="private" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vizb0DUzEeCTgvMC7BroSA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_visHEDUzEeCTgvMC7BroSA" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_vi6wkDUzEeCTgvMC7BroSA">
+            <value xsi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_sm-kwDQ_EeCA7qWDNQtS3w" name="clientFactory" visibility="private" clientDependency="_8_lpsDU2EeCTgvMC7BroSA" type="_lp6E8DQ_EeCA7qWDNQtS3w" isUnique="false"/>
+        <ownedAttribute xmi:id="_jOLH4DlZEeCMDMan_05A7g" name="user" visibility="private" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nPlH0DlZEeCMDMan_05A7g" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nPkgwDlZEeCMDMan_05A7g" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_nPmV8DlZEeCMDMan_05A7g">
+            <value xsi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jZfAADlZEeCMDMan_05A7g" name="password" visibility="private" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jeD-ADlZEeCMDMan_05A7g" name="error" visibility="private" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_kjQrgDlZEeCMDMan_05A7g" name="loginType" visibility="private" type="_NTAIcDUkEeCTgvMC7BroSA" isUnique="false"/>
         <interfaceRealization xmi:id="_NfUwQDQ_EeCA7qWDNQtS3w" name="Realization of Presenter" supplier="_AfbaEDQ5EeCA7qWDNQtS3w" client="_Gg-eEDQ_EeCA7qWDNQtS3w" contract="_AfbaEDQ5EeCA7qWDNQtS3w"/>
-        <ownedOperation xmi:id="_yNEDgDQ_EeCA7qWDNQtS3w" name="start">
+        <ownedOperation xmi:id="_yNEDgDQ_EeCA7qWDNQtS3w" name="start" visibility="public">
           <ownedParameter xmi:id="_2hK9ADQ_EeCA7qWDNQtS3w" name="param_0" type="_mW_0cDQ_EeCA7qWDNQtS3w"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_NV4JcDlaEeCMDMan_05A7g" name="getters"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_lp6E8DQ_EeCA7qWDNQtS3w" name="ClientFactory"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_mW_0cDQ_EeCA7qWDNQtS3w" name="EventBus"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_fwiY0DlYEeCMDMan_05A7g" name="UserAccount"/>
   </packagedElement>
   <profileApplication xmi:id="_4mqVMjPDEeCbI5kOPEp-CA">
     <eAnnotations xmi:id="_4mqVMzPDEeCbI5kOPEp-CA" source="http://www.eclipse.org/uml2/2.0.0/UML">
