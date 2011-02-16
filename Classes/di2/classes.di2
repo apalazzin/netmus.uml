@@ -427,7 +427,7 @@
   <contained xsi:type="di2:GraphEdge" isVisible="true" lineStyle="solid" fontColor="0:0:0" foregroundColor="0:0:0" backgroundColor="0:0:0" borderColor="0:0:0" anchor="//@contained.0/@contained.0/@contained.6/@anchorage.0 //@contained.0/@contained.0/@contained.5/@anchorage.0">
     <waypoints>288:185</waypoints>
   </contained>
-  <contained xsi:type="di2:GraphNode" isVisible="true" fontFamily="Arial" lineStyle="solid" fontColor="0:0:0" foregroundColor="248:249:214" backgroundColor="206:210:253" borderColor="157:124:47" position="566:547" size="273:107">
+  <contained xsi:type="di2:GraphNode" isVisible="true" fontFamily="Arial" lineStyle="solid" fontColor="0:0:0" foregroundColor="248:249:214" backgroundColor="206:210:253" borderColor="157:124:47" position="566:540" size="273:81">
     <property key="STEREOTYPE_DISPLAY_LOCATION" value="Comment"/>
     <property key="QUALIFIED_NAME_DEPTH" value="0"/>
     <contained xsi:type="di2:GraphNode" isVisible="true" fontFamily="Arial" lineStyle="solid" fontColor="0:0:0" foregroundColor="248:249:214" backgroundColor="206:210:253" borderColor="157:124:47" position="20:20" size="200:100">
@@ -437,7 +437,7 @@
     <semanticModel xsi:type="di2:Uml1SemanticModelBridge" presentation="TextStereotype">
       <element xsi:type="uml:Comment" href="classes.uml#_i4_soDlaEeCMDMan_05A7g"/>
     </semanticModel>
-    <anchorage position="681:546" graphEdge="//@contained.0/@contained.2/@contained.1"/>
+    <anchorage position="681:539" graphEdge="//@contained.0/@contained.2/@contained.1"/>
   </contained>
   <owner xsi:type="di2:Uml1SemanticModelBridge">
     <element xsi:type="uml:Model" href="classes.uml#_4mqVMDPDEeCbI5kOPEp-CA"/>

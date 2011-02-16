@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_4mqVMDPDEeCbI5kOPEp-CA" name="classes">
   <ownedComment xmi:id="_i4_soDlaEeCMDMan_05A7g" annotatedElement="_Gg-eEDQ_EeCA7qWDNQtS3w">
-    <body>All'interno dei metodi dell'interfaccia Presenter implementati da LoginActivity vi sono le chiamate asincrone ai service che collegano il client al server.</body>
+    <body>All'interno dei metodi implementati da LoginActivity vi sono le chiamate ai service che collegano client e server.</body>
   </ownedComment>
   <packageImport xmi:id="_4mqVMTPDEeCbI5kOPEp-CA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
