@@ -2208,7 +2208,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l3X1MC0YEeCmHI0NukZ1WA" id="(0.9425287356321839,0.25)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_xV-rkDXhEeCaA_emhWAv-g" type="4004" source="_zzD5ICy5EeCSgsyfwsHZHQ" target="_iDyX0Cy1EeCSgsyfwsHZHQ" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_xV_SoDXhEeCaA_emhWAv-g" type="6003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xV_SoDXhEeCaA_emhWAv-g" visible="false" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xV_SoTXhEeCaA_emhWAv-g" y="20"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_xV_SojXhEeCaA_emhWAv-g" type="6004">
